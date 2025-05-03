@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Beranda</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="plugins/bootstrapicons/bootstrap-icons.css">
+<link rel="stylesheet" type="text/css" href="plugins/fontawesome/css/all.css">
+<link rel="stylesheet" type="text/css" href="plugins/datatables/datatables.css">
+<link rel="stylesheet" type="text/css" href="plugins/sweetalert/dist/sweetalert2.css">
+<link rel="stylesheet" type="text/css" href="plugins/sweetalert/dist/bootstrap-4.css">
+<link rel="stylesheet" type="text/css" href="plugins/apexcharts/dist/apexcharts.css">
+<link rel="stylesheet" type="text/css" href="plugins/viewerjs/dist/viewer.css">
+<!-- <link rel="stylesheet" type="text/css" href="plugins/mdbootstrap/css/mdb.min.css"> -->
+
+<style type="text/css">
+
+	@font-face
+	{
+		font-family: billabong;
+		src: url(assets/fonts/billabong.ttf);
+	}
+
+	@font-face {
+  	font-family: comicsans;
+  	src: url(assets/fonts/ComicSans.ttf);
+	}
+
+	@font-face {
+  	font-family: f25bankprinter;
+  	src: url(assets/fonts/F25_Bank_Printer.ttf);
+	}
+
+	@font-face {
+  	font-family: hackregular;
+  	src: url(assets/fonts/Hack-Regular.ttf);
+	}
+
+	@font-face
+	{
+		font-family: mandalaregular;
+		src: url(assets/fonts/mandalaregular.ttf);
+	}
+	
+	@font-face {
+  	font-family: monospacetypewriter;
+  	src: url(assets/fonts/MonospaceTypewriter.ttf);
+	}
+
+	@font-face
+	{
+		font-family: nunitosansregular;
+		src: url(assets/fonts/nunitosansregular.ttf);
+	}
+
+	@font-face
+	{
+		font-family: opensansregular;
+		src: url(assets/fonts/opensansregular.ttf);
+	}
+
+	@font-face
+	{
+		font-family: picoblack;
+		src: url(assets/fonts/picoblack.ttf);
+	}
+
+	@font-face
+	{
+		font-family: picowhite;
+		src: url(assets/fonts/picowhite.ttf);
+	}
+
+	@font-face {
+  	font-family: robotoregular;
+  	src: url(assets/fonts/RobotoRegular.ttf);
+	}
+
+	@font-face {
+  	font-family: ubunturegular;
+  	src: url(assets/fonts/UbuntuRegular.ttf);
+	}
+
+	@font-face
+	{
+		font-family: zaloraregular;
+		src: url(assets/fonts/zaloraregular.ttf);
+	}
+
+	.font-face-billabong
+	{
+		font-family: billabong;
+	}
+
+	.font-face-picoblack
+	{
+		font-family: picoblack;
+	}
+
+	.font-face-picowhite
+	{
+		font-family: picowhite;
+	}
+
+	.font-face-zaloraregular
+	{
+		font-family: zaloraregular;
+	}
+
+	.font-face-opensansregular
+	{
+		font-family: opensansregular;
+	}
+
+	.font-face-mandalaregular
+	{
+		font-family: mandalaregular !important;
+	}
+
+	.font-face-nunitosansregular
+	{
+		font-family: nunitosansregular !important;
+	}
+
+	*
+	{
+		font-family: nunitosansregular !important;
+		/*border-radius: 0px !important;*/
+	}
+
+	.cust-mt-1
+	{
+		margin-top: 1rem !important;
+	}
+
+	.cust-mt-4
+	{
+		margin-top: 4rem !important;
+	}
+
+	.cust-mt-5
+	{
+		margin-top: 5rem !important;
+	}
+
+	.cust-mt-10
+	{
+		margin-top: 10rem !important;
+	}
+
+	.cust-mb-4
+	{
+		margin-bottom: 4rem !important;
+	}
+
+	.cust-mb-5
+	{
+		margin-bottom: 5rem !important;
+	}
+
+	.cust-disable-select
+	{
+		-webkit-user-select: none;
+		user-select: none;
+		-moz-user-select: none;
+	}
+
+	.cust-text-shadow
+	{
+		text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+	}
+
+	.cust-unstyled-li
+	{
+		list-style-type: none;
+	}
+
+	.cust-picture-gallery
+	{
+		padding: 0px;
+	  display: flex;
+	  flex-wrap: wrap;
+	  /*border:  1px black solid;*/
+	}
+
+	.cust-picture-list
+	{
+		list-style: none;
+		border: dashed 1px;
+		border-color: rgba(200, 200, 200, 0.75);
+	    display: inline-block;
+	    width: calc(100% / 3);
+	    height: auto;
+	    text-align: center;
+	}
+
+	body
+	{
+		/*background-color: #0D73F8;*/
+		/*background-color: #E8E8E8;*/
+		/*background-color: #737373;*/
+		/*background-color: #0D6EFD;*/
+		/*background-color: #121212;*/
+		background-color: #F8F9FC;
+		/*background-color: white;*/
+	}
+	
+	/*.btn-group, .btn, input, textarea, select, option, .card, .nav, .dropdown-menu, .dropdown-item, .modal, .modal-body, .modal-dialog, .modal-content, .modal-header, .badge, .swal2-popup, .swal2-container, .swal2-header, .swal2-confirm, .page-link, .dtr-control::before, .progress
+	{
+		border-radius: 0px !important;
+	}*/
+
+</style>
+</head>
+
+<body>
+	
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white border sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="font-size: 1rem !important;"><b>INARCH STUDIO<?php if(isset($page_title)){ ?> - <?php echo $page_title; } ?></b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">INARCH STUDIO</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav" style="z-index: 2;">
+          <li class="nav-item">
+            <a class="nav-link" href="index.php"><i class="bi bi-house"></i> BERANDA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tentang_aplikasi.php"><i class="bi bi-image"></i> GALERI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tentang_aplikasi.php"><i class="bi bi-tags"></i> LAYANAN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tentang_aplikasi.php"><i class="bi bi-people"></i> KONTAK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bagian-tentang-kami"><i class="bi bi-ps4game"></i> TENTANG KAMI</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+	<div class="container-fluid p-0">
+		<img src="assets/images/backgrounds/header.png" alt="" class="img-fluid">
+	</div>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-6">
+				<div id="bagian-tentang-kami" class="container">
+					<h3><b>TENTANG KAMI</b></h3>
+				</div>
+				<div class="container" style="text-align: justify; text-justify: inter-word;">
+					Inarch Studio adalah perusahaan yang bergerak di bidang interior design.  Memiliki semangat yang tinggi untuk membangun dan menciptakan sebuah seni keindahan arsitektur, serta mengedepankan kualitas bangunan. Menjadi mitra yang kompeten, melayani segala kebutuhan yang diinginkan klien.
+				</div>
+			</div>
+			<div class="col-md-6 p-0">
+				<img src="assets/images/backgrounds/about.png" alt="" class="img-fluid">
+			</div>
+		</div>
+	</div>
+	<div id="bagian-layanan" class="container mt-5 bg-white rounded">
+		<div class="row">
+			<div class="col-md-12 text-center mb-3 mt-3"><h3><b>LAYANAN</b></h3></div>
+			<div class="col-md-6 text-center p-3">
+				<b>Jasa Desain Interior</b>
+				<p><h1><i class="bi bi-brush"></i></h1></p>
+				<p>
+					menyediakan jasa desain interior rumah atau bangunan dan dapat dilakukan kustomisasi sesuai dengan kebutuhan, dan keinginan Anda.
+				</p>
+			</div>
+			<div class="col-md-6 text-center p-3">
+				<b>Jasa Perhitungan RAB</b>
+				<p><h1><i class="bi bi-calculator"></i></h1></p>
+				<p>
+					menyediakan jasa perhitungan RAB (Rencana Anggaran Biaya), kami dapat membantu memperhitungan biaya anggaran perencanaan dalam membangun rumah.
+				</p>
+			</div>
+			<div class="col-md-6 text-center p-3">
+				<b>Jasa Desain Rumah</b>
+				<p><h1><i class="bi bi-house"></i></h1></p>
+				<p>
+					menyediakan jasa desain rumah dengan konsep yang dapat disesuai dengan kebutuhan dan selera desain Anda.
+				</p>
+			</div>
+			<div class="col-md-6 text-center p-3">
+				<b>Jasa Gambar Kerja</b>
+				<p><h1><i class="bi bi-images"></i></h1></p>
+				<p>
+					dapat membantu Anda dalam membuat gambar yang mencakup rakitan dan rincian spesifikasi untuk pembuatan dari suatu desain rumah yang harus dibuat secara rapi dan diperiksa secara teliti.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-5">
+		<div class="container text-center"><h3><b>GALERI</b></h3></div>
+		<div class="row">
+			<div class="col-md-4 mb-3">
+				<div class="card">
+				  <img src="assets/images/backgrounds/header.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Rumah Pak/Bu Anu</h5>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+				  <img src="assets/images/backgrounds/header.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Rumah Pak/Bu Anu</h5>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+				  <img src="assets/images/backgrounds/header.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Rumah Pak/Bu Anu</h5>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+				  <img src="assets/images/backgrounds/header.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Rumah Pak/Bu Anu</h5>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+				  <img src="assets/images/backgrounds/header.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Rumah Pak/Bu Anu</h5>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+				  <img src="assets/images/backgrounds/header.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Rumah Pak/Bu Anu</h5>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+				  <img src="assets/images/backgrounds/header.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Rumah Pak/Bu Anu</h5>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+				  <img src="assets/images/backgrounds/header.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Rumah Pak/Bu Anu</h5>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card">
+				  <img src="assets/images/backgrounds/header.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Rumah Pak/Bu Anu</h5>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid text-center mt-5 p-1 bg-dark text-white">
+		Copyright PT Inarch. 2025. All Right Reserved
+	</div>
+</body>
+
+<script type="text/javascript" src="plugins/jquery/jquery.js"></script>
+<script type="text/javascript" src="plugins/popperjs/popper.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.js"></script>
+<!-- <script type="text/javascript" src="plugins/mdbootstrap/Js/mdb.min.js"></script> -->
+<script type="text/javascript" src="plugins/datatables/datatables.js"></script>
+<script type="text/javascript" src="plugins/datatables_plugins_sorting/natural.js"></script>
+<script type="text/javascript" src="plugins/sweetalert/dist/sweetalert2.all.js"></script>
+<script type="text/javascript" src="scripts/sweetalert_launcher.js"></script>
+<script type="text/javascript" src="plugins/ckeditor4/ckeditor.js"></script>
+<script type="text/javascript" src="plugins/ckeditor5/ckeditor.js"></script>
+<script type="text/javascript" src="plugins/mathjs/math.js"></script>
+<script type="text/javascript" src="plugins/accountingjs/accountingjs.js"></script>
+<!-- <script type="text/javascript" src="plugins/fontawesome/js/all.js"></script> -->
+<script type="text/javascript" src="plugins/apexcharts/dist/apexcharts.js"></script>
+<script type="text/javascript" src="plugins/qrcodejs/qrcode.js"></script>
+<script type="text/javascript" src="plugins/viewerjs/dist/viewer.js"></script>
+<script type="text/javascript" src="plugins/viewerjs_jquery/dist/jquery-viewer.js"></script>
+<script type="text/javascript" src="plugins/jsbarcode/jsbarcode.js"></script>
+<script type="text/javascript" src="custom/custom.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// Enable bootstrap 5 Tooltip on all pages
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		  return new bootstrap.Tooltip(tooltipTriggerEl)
+		})
+	});
+</script>
+
+</html>
